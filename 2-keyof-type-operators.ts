@@ -18,6 +18,6 @@ type KeyOfUser = keyof User;
  * https://github.com/piotrwitek/utility-types/blob/master/src/utility-types.ts#L13
  */
 
-type Keys<T> = keyof T;
+type Keys<T extends object> = keyof T;
 
 export {};

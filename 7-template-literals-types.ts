@@ -8,5 +8,3 @@ type Y = 'top' | 'bottom';
 type Position = `${X}-${Y}`;
 
 export {};
-
-
